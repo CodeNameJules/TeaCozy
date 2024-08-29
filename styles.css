@@ -1,0 +1,157 @@
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+/*  HEADER  */
+
+header {
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+
+}
+
+header img {
+padding-left: 10px;
+height: 50px;
+}
+
+nav ul {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav ul li a {
+font-size: 20px;
+color: seashell;
+}
+
+/* MAIN */
+
+.container {
+    padding-top: 90px;
+
+}
+
+/* MISSION */
+
+#mission {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    width: 90%;
+    background-image: url("Images/img-mission-background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    flex-basis: 1200px;
+  }
+  
+  .mission-statement {
+    background-color: black;
+    width: 100%;
+  }
+
+  .mission-statement h2, .mission-statement h4 {
+    margin-top: 20px;
+  }
+
+  /* FEATURED TEA */
+
+  #featured-tea {
+    max-width: 1000px;
+    margin: 0 auto; 
+
+  }
+
+  .tea-cards-conatainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .tea-card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    max-width: 700px;
+    min-width: 200px;
+  }
+
+  .tea-card img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .tea-card p {
+    margin-top: 10px;
+  }
+  
+/* LOCATIONS */
+
+  #locations {
+    background-image: url(Images/img-locations-background.webp);
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    flex-basis: 1200px;
+    min-height: 500px;
+}
+
+
+
+  .locations-cards-container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .location-card {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+    height: auto;
+    opacity: 1;
+  }
+
+  .location-card p {
+    line-height: 60px;
+  }
+
+
+  /* CONTACT */
+
+  #copyright {
+    margin-top: 70px;
+    text-align: left;
+    padding-left: 20px;
+  }
